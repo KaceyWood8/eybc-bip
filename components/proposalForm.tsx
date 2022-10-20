@@ -96,7 +96,7 @@ const ProposalForm = () => {
           <Textarea {...register("motivation")} />
         </FormControl>
 
-        <FormControl>
+        <FormControl isRequired>
           <FormLabel>Specifications</FormLabel>
           <FormHelperText>
             Enter detailed description of the proposal. Feel free to add
